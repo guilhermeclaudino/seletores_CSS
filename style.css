@@ -29,3 +29,23 @@ main {
 }
 
 /* seletor pelo atributo */
+input[type=password] {
+    font-size: 3rem;
+}
+
+/* seletor por descendente */
+.login-form input {
+    font-size: 2rem;
+    color: red;
+}
+
+/* seletor de filhos diretos */
+.login-form > input {
+    color: orange;
+    width: 5rem;
+}
+
+/* pseudo-classes */
+.cadastro-form div:nth-of-type(2) {
+    background-color: blue;
+}
